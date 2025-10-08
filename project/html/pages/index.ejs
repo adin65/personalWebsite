@@ -1,18 +1,14 @@
 <html lang="en">
 <head>
-    <% include ../helpers/head %>
+    <%- include('../helpers/head.ejs') %>
 </head>
 <body>
 
   <div class="col-lg-12" style="width:100%;margin:0; padding:0">
-    <% include ../helpers/navbar %>
+    <%- include('../helpers/navbar.ejs') %>
   </div>
 
   <main class="content">
-<!--     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titleBackground" style="margin-bottom: 5%;">
-      <h2>Welcome to my site!</h2>
-      <h3>A little about me</h3>
-    </div> -->
     <div id="homeDiv">
       <h1 id="homeTitle">Artina <br> Sin</h1>
       <div id="homeBg">
@@ -20,17 +16,23 @@
       
     </div>
     <p style="margin-top: 2%;">
-      I'm a secondary school teacher specialized in teaching Mathematics and Python.
-      With all the knowledge and experiences acquired throughout my life, including my studies at the University of Toronto Scarborough and two internships as a .NET Developer and a System Analyst,
-       I am keen to turn on the light bulbs inside minds and light up the world, just like my teachers. 
+      Welcome to my website! I am a software engineer excited to provide pleasant user experiences with my work. 
+      My journey from teaching mathematics and coding to becoming an engineer at tech companies has given me a unique perspective on problem-solving and creating better designs.
       <br><br>
-
-      After diving into Computer Science and learning programming languages such as 
-      Python, Java, C and C#, I have used them to create better solutions to existing tasks. 
-      I believe my passion in problem-solving as a developer would make the society I contribute to a better place. 
+      Here lies the portfolio of some of the things I did, particularly as an Undergraduate student in University of Toronto Scarborough which was when I wrote this website, and a few things about my work experience since then.  
       <br><br>
-      During my free time, I enjoy drawing. The tiny seagull on the bottom left of this page is one of my
-      quick sketches. If you want to see more digital paintings made by me, feel free to click on the seagull.
+      I was inspired by my teachers who turned on figurative lightbulbs in my head; I still remember the curiosity I felt when I was shown mind-boggling ideas, 
+      the eureka moment I felt when I struggled to make sense of a question in my assignment and my teacher patiently guided me through each step, the satisfaction I felt when I conquered the ridiculously challenging test written by my teacher.
+      These precious memories has helped me navigate through different aspects in life, including my career.
+      <br><br>
+      During the year working as a secondary teacher, I created many learning materials for my classes and noted how well the students responded to the material in order get as many students to understand the difficult concepts of coding as I could. 
+      For example, with Jupyter Notebooks that have long and detailed paragraphs, students became impatient with reading the materials; after adding more diagrams to illustrate a concept, breaking down paragraphs to 1-2 sentences and making more tiny practice checkpoints, 
+      the students were more engaged in class and began to fill out the questions ahead of time. The moments when they respond with joy that they understand a new concept brings me fulfillment.
+      <br><br>
+      However, I was struggling to handle all the responsibilities as a teacher in that school and my personal life all at once. So I switched jobs to become a software developer, 
+      a role that I have experiences on during my studies in university. Through the projects I worked on, I gained experiences on various roles in software development: Front End, Back End and DevOps, 
+      which allows me to pick up different kinds of technical tasks quickly.
+      In my spare time, I practice yoga, create music covers and make hand crafts (I however does not post proof on social media). 
     </p>
 
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 2%;width: 100%;">
@@ -46,7 +48,7 @@
       </div>
   </main>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="width:100%;margin:0; padding:0">
-  <% include ../helpers/footer %>
+  <%- include('../helpers/footer.ejs') %>
 </div>
 </body>
 </html>

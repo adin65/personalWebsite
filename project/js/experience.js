@@ -4,11 +4,27 @@ app.controller("experienceCtrl", function($scope) {
 
         $scope.experienceList = [
             {
+                "name": "Amdocs Software Engineer",
+                "date": "Apr 2024 - Present",
+                //"link": "projects/maintenanceNotif",
+                "image": "/images/AmdocsLogo.png",
+                "description": "With the help of CI/CD technologies, I implemented pipelines to support the development and integration of a internal testing tool.",
+                "orgLink":"https://www.amdocs.com/"
+            },
+            {
+                "name": "Alpha Solution Macau Programmer",
+                "date": "Oct 2023 - Mar 2024",
+                //"link": "projects/maintenanceNotif",
+                "image": "/images/alphasolutionLogo.png",
+                "description": "Through upgrading existing features and UI of the company's online shopping platform product, I gained experience on Vue and Alicloud.",
+                "orgLink":"https://www.alphasolution.com.mo/en/"
+            },
+            {
                 "name": "Macau Pui Ching Middle School Math AI Teacher",
-                "date": "Sept 2022 - Present",
+                "date": "Sept 2022 - Aug 2023",
                 //"link": "projects/maintenanceNotif",
                 "image": "/images/PCMSLogo.png",
-                "description": "Creating and teaching a new curriculum for junior secondary Maths and AI with the goal to improve students' critical thinking skills.",
+                "description": "I co-desgined and taught a new curriculum for junior secondary Maths and AI with the goal to improve students' critical thinking skills.",
                 "orgLink":"http://www.puiching.edu.mo/"
             },
             {

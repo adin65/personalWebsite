@@ -91,12 +91,13 @@ input[type=text] {
 .container {
 
 	background-color: #52575e;
-	display: block;
-  padding: 1%;
-  margin: 2% auto;
+	display: flex;
+  padding: 2rem;
+  margin: 3rem;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  flex-direction: column;
+  width: 65rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
@@ -190,7 +191,7 @@ footer {
 
 .caption {
   font-family: 'Expletus Sans', cursive;
-  font-size: 1vw;
+  font-size: 0.8vw;
   margin: 0.5%
 }
 
@@ -242,8 +243,7 @@ i:hover {
 .cardCaption {
   text-align: left;
   font-weight: lighter;
-  margin: auto;
-  width: 90%;
+  margin: 3rem;
 }
 .speech {
   position: relative;
@@ -326,7 +326,7 @@ td:hover {
   position: relative;
   top:-70%;
 
-  background-image: url(/images/titleBg3.jpg);
+  background-image: url(/images/titleBg4.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -428,6 +428,17 @@ blockquote{
   font-family: 'Source Code Pro', monospace;
   box-shadow: #434343 1px;
   border-left: 5px solid #81C7D4;
+}
+.flexcontainer {
+    display: flex;
+    justify-items: start;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 @media screen and (max-width: 800px) {

@@ -12,19 +12,22 @@
         <h2>Projects</h2>
         <h3>Here is a list of projects I have worked on.</h3>
       </div>
-      
-      <div ng-repeat="project in projectList">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" ng-mouseenter="speak()">
-          <div class="container card">
-            <a href="{{project.link}}">
-              <h4>{{project.name}}</h4>
-              <div style="overflow: hidden; width:90%;margin:2% 5%">
-                <img src="{{project.image}}"width=100%/>
+      <div style="display: flex; height: fit-content; width: fit-content; justify-content: center;">
+        <div class="flexcontainer">
+          <div ng-repeat="project in projectList">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" ng-mouseenter="speak()">
+              <div class="container card">
+                <a href="{{project.link}}">
+                  <h4>{{project.name}}</h4>
+                  <div style="overflow: hidden; width:90%;margin:2% 5%">
+                    <img src="{{project.image}}"width=100%/>
+                  </div>
+                </a> 
+                <p class="caption cardCaption">{{project.description}}</p>
               </div>
-            </a> 
-            <p class="caption cardCaption">{{project.description}}</p>
+            </div> 
           </div>
-        </div> 
+        </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height: 50px;">
       </div>

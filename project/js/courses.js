@@ -39,6 +39,15 @@ app.controller("courseCtrl", function($scope) {
                 "description": "Image Formation, Object Models and Manipulation, Cameras, Ray Tracing, Illumination, Path Tracing"
             },
             {
+                "code": "CSCD84",
+                "courseName": "Artificial Intelligence",
+                "semester": "Winter 2022",
+                "link": "https://utsc.calendar.utoronto.ca/course/cscd84h3",
+                "notesLink": "/documents/CSCD84Notes.pdf",
+                "notesName": "CSCD84Notes",
+                "description": "Search, Game Playing, Reinforcement Learning, Neural Network"
+            },
+            {
                 "code": "MATA22",
                 "courseName": "Linear Algebra I for Mathematical Sciences",
                 "semester": "Winter 2019",
